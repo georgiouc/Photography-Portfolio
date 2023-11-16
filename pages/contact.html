@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Photography Portfolio</title>
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+        <body>
+            <!-- Navigation Bar -->
+            <nav>
+                <ul>
+                    <li><a href="../pages/home.html">Home</a></li>
+                    <li><a href="../pages/portfolio.html">Portfolio</a></li>
+                    <li><a href="../pages/about.html">About Me</a></li>
+                    <li><a href="../pages/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- Main Content -->
+            <div class="container">
+                <section id="contact">
+                    <h2>Contact Me</h2>
+                    <!-- Contact Form Goes Here -->
+                    <form id="contact-form">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone" required>
+
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+
+                        <button type="submit" id="submit-btn">Submit</button>
+                    </form>
+                </section>
+                <footer>
+                    <p>&copy; 2023 Your Photography Portfolio. All rights reserved.</p>
+                </footer>
+            </div>
+
+            <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+            <script src="../jscript/script.js"></script>
+
+        </body>
+</html>
