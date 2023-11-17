@@ -1,3 +1,4 @@
+// Form submission popup script
 $(document).ready(function () {
     // Submit form and show success alert
     $("#contact-form").submit(function (event) {

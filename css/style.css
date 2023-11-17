@@ -149,18 +149,27 @@ button:hover {
     }
 
 }
+/* About Me Page Styles */
+.about-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
 
 footer {
     background-color: #333;
     color: #fff;
     padding: 10px 0;
     text-align: center;
+    
 }
 
 .footer section { 
     margin-bottom: 15px;
     background-color: lightgrey;
     padding-left: 3%;
+    border-radius: 10px;
 }
 .footer a {
     color: #555;
@@ -174,6 +183,8 @@ footer {
     font-size: medium;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+
 
 
 
